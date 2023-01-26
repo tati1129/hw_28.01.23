@@ -1,0 +1,42 @@
+
+.card{
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(243, 237, 226);
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px 10px rgba(65, 63, 63, 0.5);
+}
+.title{
+    color: blue;
+    font-style: normal;
+}
+.price{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
+.title span, .price span, .count span, .amount span{
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}
+.expensive{
+    font-size: 30px;
+}
+.count{
+    color: green;
+}
+.amount{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+.btn{
+    cursor: pointer;
+}
+.btn:active{
+    color: red;
+    background-color: white;
+}

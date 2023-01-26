@@ -1,0 +1,25 @@
+.info{
+    margin: 20px;
+    padding: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   box-shadow: 20px 10px 10px 10px rgba(65, 63, 63, 0.5);
+   width: 654px;
+   border: none;
+}
+.info span{
+   color: black;
+   font-size: 15px;
+   font-style: italic;
+   ;
+}
+.count{
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+}
+.amount{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
