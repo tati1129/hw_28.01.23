@@ -43,13 +43,13 @@ function App() {
   }
 
   
-  const counter = products.reduce((sum, product) => sum + (product.count), 0);
-  const amount = products.reduce((prev, product) => prev + (product.price*product.count),0);
+  const counter = products.reduce((sum, {count}) => sum + (count), 0);
+  const amount = products.reduce((prev, {price, count}) => prev + (price*count),0);
   
 
   return (
     <div>
-      <h2> Корзина </h2>
+      
       <AddProduct createProduct={createProduct} />
       
       <div className={s.container}>
@@ -60,7 +60,7 @@ function App() {
           )
       }
       </div>
-      
+      <h2> Корзина </h2>
       <BlockInfo amount={amount} counter={counter} />
       
     </div>
